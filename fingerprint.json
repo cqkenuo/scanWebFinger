@@ -1,0 +1,21 @@
+[
+  {"name": "dedecms" , "path" : "/dede/login.php" ,"contain": "默认名称dede","weight": 40,"print": "MS官网\"><strong>(.*?)</st"},
+  {"name": "dedecms" , "path" : "/plus/search.php" ,"contain": "DedeCMS 提示信息！","weight": 40,"print": ""},
+  {"name": "wordpress" , "path" : "/wp-login.php" ,"contain": "记住我的登录信息","weight": 40,"print": ""},
+  {"name": "wordpress" , "path" : "/license.txt" ,"contain": "WordPress","weight": 40,"print": ""},
+  {"name": "wordpress" , "path" : "/wp-load.php" ,"statuscode": 200,"weight": 20},
+  {"name": "wordpress" , "path" : "/wp-cron.php" ,"statuscode": 200,"weight": 20},
+  {"name": "thinkphp" , "path" : "/router.php" ,"statuscode": 200,"weight": 5},
+  {"name": "禅知cms" , "path" : "/loader.php" ,"statuscode": 200,"weight": 5},
+  {"name": "禅知cms" , "path" : "/js/chanzhi.all.admin.js" ,"statuscode": 200,"weight": 50},
+  {"name": "禅知cms" , "path" : "/js/chanzhi.all.js" ,"statuscode": 200,"weight": 5},
+  {"name": "discuz" , "path" : "/forum.php" ,"contain": "discuz","weight": 60 ,"print": "generator\" content=\"(.*?)\""},
+  {"name": "emlog" , "path" : "/wlwmanifest.xml" ,"statuscode": 200,"weight": 5},
+  {"name": "emlog" , "path" : "/admin/editor/plugins/code/prettify.js" ,"statuscode": 200,"weight": 10},
+  {"name": "emlog" , "path" : "/admin/editor/plugins/code/prettify.css" ,"statuscode": 200,"weight": 10},
+  {"name": "emlog" , "path" : "/include/lib/passwordhash.php" ,"statuscode": 200,"weight": 40},
+  {"name": "emlog" , "path" : "/include/model/plugin_model.php" ,"statuscode": 200,"weight": 40},
+  {"name": "zblogger" , "path" : "/zb_users/c_option.php" ,"statuscode": 200,"weight": 40},
+  {"name": "zblogger" , "path" : "/zb_install/language/zh-cn.php" ,"statuscode": 200,"weight": 40},
+  {"name": "zblogger" , "path" : "/zb_system/cmd.php" ,"statuscode": 200,"weight": 50}
+]
