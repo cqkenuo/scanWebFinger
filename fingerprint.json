@@ -18,4 +18,4 @@
   {"name": "zblogger" , "path" : "/zb_users/c_option.php" ,"statuscode": 200,"weight": 40},
   {"name": "zblogger" , "path" : "/zb_install/language/zh-cn.php" ,"statuscode": 200,"weight": 40},
   {"name": "zblogger" , "path" : "/zb_system/cmd.php" ,"statuscode": 200,"weight": 50}
-]
+] 
