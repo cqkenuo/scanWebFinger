@@ -42,7 +42,7 @@ class Spider:
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='fingerScan -u http://baidu.com')
+    parser = argparse.ArgumentParser(description='scanWebFinger -u http://baidu.com')
     print("""
     ---------------------------------------
     |   Author:大耳朵图图                  

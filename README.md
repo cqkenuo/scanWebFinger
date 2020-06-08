@@ -13,3 +13,6 @@ pip3 install requests
 pip3 install argparse
 pip3 install tqdm
 ```
+
+##使用方法:  
+####`python3 fingerWebScan -u http://baidu.com  `
